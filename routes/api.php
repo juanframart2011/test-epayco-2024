@@ -2,7 +2,9 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\WalletController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,14 +28,15 @@ Route::prefix('client')->name('client.')->group(function(){
     Route::post('register', [UserController::class, 'register'])->name('register');
 });
 
-#Wallet
-Route::prefix('client')->name('client.')->group(function(){
+#Payment
+Route::prefix('payment')->name('payment.')->group(function(){
 
-    Route::post('register', [UserController::class, 'register'])->name('register');
+    Route::post('pay', [PaymentController::class, 'pay'])->name('pay');
 });
 
-#Client
-Route::prefix('client')->name('client.')->group(function(){
+#Wallet
+Route::prefix('wallet')->name('wallet.')->group(function(){
 
-    Route::post('register', [UserController::class, 'register'])->name('register');
+    Route::post('balance', [WalletController::class, 'balance'])->name('balance');
+    Route::post('recharge', [WalletController::class, 'recharge'])->name('recharge');
 });
