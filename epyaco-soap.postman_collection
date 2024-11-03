@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "0b6969df-a787-405a-be89-54bfc8fe500f",
+		"name": "epyaco",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "388641"
+	},
+	"item": [
+		{
+			"name": "recarga",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"value": "holamundo",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "11111",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://test-epayco-2024-soap.test/api/wallet/recharge",
+					"protocol": "http",
+					"host": [
+						"test-epayco-2024-soap",
+						"test"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"recharge"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saldo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"value": "holamundo",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "11111",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://test-epayco-2024-soap.test/api/wallet/balance",
+					"protocol": "http",
+					"host": [
+						"test-epayco-2024-soap",
+						"test"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register-client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"value": "holamundo",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "11111",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "juan@email.com",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "hola mundo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://test-epayco-2024-soap.test/api/client/register",
+					"protocol": "http",
+					"host": [
+						"test-epayco-2024-soap",
+						"test"
+					],
+					"path": [
+						"api",
+						"client",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "compra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "document",
+							"value": "holamundo",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "11111",
+							"type": "text"
+						},
+						{
+							"key": "amount",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://test-epayco-2024-soap.test/api/payment/pay",
+					"protocol": "http",
+					"host": [
+						"test-epayco-2024-soap",
+						"test"
+					],
+					"path": [
+						"api",
+						"payment",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "confirmacion de compra",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "3oyEPF",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://test-epayco-2024-soap.test/conformation-pay/6",
+					"protocol": "http",
+					"host": [
+						"test-epayco-2024-soap",
+						"test"
+					],
+					"path": [
+						"conformation-pay",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
