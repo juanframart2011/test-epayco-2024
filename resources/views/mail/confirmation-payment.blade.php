@@ -100,214 +100,214 @@
             table-layout:fixed !important;
             }
             /*
-            @tab Page
-            @section Heading 1
-            @style heading 1
+            
+            
+            
             */
             h1{
-            /*@editable*/color:#222222;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:40px;
-            /*@editable*/font-style:normal;
-            /*@editable*/font-weight:bold;
-            /*@editable*/line-height:150%;
-            /*@editable*/letter-spacing:normal;
-            /*@editable*/text-align:center;
+            color:#222222;
+            font-family:Helvetica;
+            font-size:40px;
+            font-style:normal;
+            font-weight:bold;
+            line-height:150%;
+            letter-spacing:normal;
+            text-align:center;
             }
             /*
-            @tab Page
-            @section Heading 2
-            @style heading 2
+            
+            
+            heading 2
             */
             h2{
-            /*@editable*/color:#222222;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:34px;
-            /*@editable*/font-style:normal;
-            /*@editable*/font-weight:bold;
-            /*@editable*/line-height:150%;
-            /*@editable*/letter-spacing:normal;
-            /*@editable*/text-align:left;
+            color:#222222;
+            font-family:Helvetica;
+            font-size:34px;
+            font-style:normal;
+            font-weight:bold;
+            line-height:150%;
+            letter-spacing:normal;
+            text-align:left;
             }
             /*
-            @tab Page
-            @section Heading 3
-            @style heading 3
+            
+            Heading 3
+            heading 3
             */
             h3{
-            /*@editable*/color:#444444;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:22px;
-            /*@editable*/font-style:normal;
-            /*@editable*/font-weight:bold;
-            /*@editable*/line-height:150%;
-            /*@editable*/letter-spacing:normal;
-            /*@editable*/text-align:left;
+            color:#444444;
+            font-family:Helvetica;
+            font-size:22px;
+            font-style:normal;
+            font-weight:bold;
+            line-height:150%;
+            letter-spacing:normal;
+            text-align:left;
             }
             /*
-            @tab Page
-            @section Heading 4
-            @style heading 4
+            
+            Heading 4
+            heading 4
             */
             h4{
-            /*@editable*/color:#949494;
-            /*@editable*/font-family:Georgia;
-            /*@editable*/font-size:20px;
-            /*@editable*/font-style:italic;
-            /*@editable*/font-weight:normal;
-            /*@editable*/line-height:125%;
-            /*@editable*/letter-spacing:normal;
-            /*@editable*/text-align:left;
+            color:#949494;
+            font-family:Georgia;
+            font-size:20px;
+            font-style:italic;
+            font-weight:normal;
+            line-height:125%;
+            letter-spacing:normal;
+            text-align:left;
             }
             /*
-            @tab Header
-            @section Header Container Style
+            Header
+            Header Container Style
             */
             #templateHeader{
-            /*@editable*/background-color:#F7F7F7;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:45px;
-            /*@editable*/padding-bottom:45px;
+            background-color:#F7F7F7;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:45px;
+            padding-bottom:45px;
             }
             /*
-            @tab Header
-            @section Header Interior Style
+            Header
+            Header Interior Style
             */
             .headerContainer{
-            /*@editable*/background-color:transparent;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:0;
-            /*@editable*/padding-bottom:0;
+            background-color:transparent;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:0;
+            padding-bottom:0;
             }
             /*
-            @tab Header
-            @section Header Text
+            Header
+            Header Text
             */
             .headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-            /*@editable*/color:#757575;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:16px;
-            /*@editable*/line-height:150%;
-            /*@editable*/text-align:left;
+            color:#757575;
+            font-family:Helvetica;
+            font-size:16px;
+            line-height:150%;
+            text-align:left;
             }
             /*
-            @tab Header
-            @section Header Link
+            Header
+            Header Link
             */
             .headerContainer .mcnTextContent a,.headerContainer .mcnTextContent p a{
-            /*@editable*/color:#007C89;
-            /*@editable*/font-weight:normal;
-            /*@editable*/text-decoration:underline;
+            color:#007C89;
+            font-weight:normal;
+            text-decoration:underline;
             }
             /*
-            @tab Body
-            @section Body Container Style
+            Body
+            Body Container Style
             */
             #templateBody{
-            /*@editable*/background-color:#FFFFFF;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:36px;
-            /*@editable*/padding-bottom:45px;
+            background-color:#FFFFFF;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:36px;
+            padding-bottom:45px;
             }
             /*
-            @tab Body
-            @section Body Interior Style
+            Body
+            Body Interior Style
             */
             .bodyContainer{
-            /*@editable*/background-color:transparent;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:0;
-            /*@editable*/padding-bottom:0;
+            background-color:transparent;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:0;
+            padding-bottom:0;
             }
             /*
-            @tab Body
-            @section Body Text
+            Body
+            Body Text
             */
             .bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-            /*@editable*/color:#757575;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:16px;
-            /*@editable*/line-height:150%;
-            /*@editable*/text-align:left;
+            color:#757575;
+            font-family:Helvetica;
+            font-size:16px;
+            line-height:150%;
+            text-align:left;
             }
             /*
-            @tab Body
-            @section Body Link
+            Body
+            Body Link
             */
             .bodyContainer .mcnTextContent a,.bodyContainer .mcnTextContent p a{
-            /*@editable*/color:#007C89;
-            /*@editable*/font-weight:normal;
-            /*@editable*/text-decoration:underline;
+            color:#007C89;
+            font-weight:normal;
+            text-decoration:underline;
             }
             /*
-            @tab Footer
-            @section Footer Style
+            Footer
+            Footer Style
             */
             #templateFooter{
-            /*@editable*/background-color:#333333;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:45px;
-            /*@editable*/padding-bottom:63px;
+            background-color:#333333;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:45px;
+            padding-bottom:63px;
             }
             /*
-            @tab Footer
-            @section Footer Interior Style
+            Footer
+            Footer Interior Style
             */
             .footerContainer{
-            /*@editable*/background-color:transparent;
-            /*@editable*/background-image:none;
-            /*@editable*/background-repeat:no-repeat;
-            /*@editable*/background-position:center;
-            /*@editable*/background-size:cover;
-            /*@editable*/border-top:0;
-            /*@editable*/border-bottom:0;
-            /*@editable*/padding-top:0;
-            /*@editable*/padding-bottom:0;
+            background-color:transparent;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-position:center;
+            background-size:cover;
+            border-top:0;
+            border-bottom:0;
+            padding-top:0;
+            padding-bottom:0;
             }
             /*
-            @tab Footer
-            @section Footer Text
+            Footer
+            Footer Text
             */
             .footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-            /*@editable*/color:#FFFFFF;
-            /*@editable*/font-family:Helvetica;
-            /*@editable*/font-size:12px;
-            /*@editable*/line-height:150%;
-            /*@editable*/text-align:center;
+            color:#FFFFFF;
+            font-family:Helvetica;
+            font-size:12px;
+            line-height:150%;
+            text-align:center;
             }
             /*
-            @tab Footer
-            @section Footer Link
+            Footer
+            Footer Link
             */
             .footerContainer .mcnTextContent a,.footerContainer .mcnTextContent p a{
-            /*@editable*/color:#FFFFFF;
-            /*@editable*/font-weight:normal;
-            /*@editable*/text-decoration:underline;
+            color:#FFFFFF;
+            font-weight:normal;
+            text-decoration:underline;
             }
             @media only screen and (min-width:768px){
             .templateContainer{
@@ -383,83 +383,83 @@
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Heading 1
+            Mobile Styles
+            
             @tip Make the first-level headings larger in size for better readability on small screens.
             */
             h1{
-            /*@editable*/font-size:30px !important;
-            /*@editable*/line-height:125% !important;
+            font-size:30px !important;
+            line-height:125% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Heading 2
+            Mobile Styles
+            
             @tip Make the second-level headings larger in size for better readability on small screens.
             */
             h2{
-            /*@editable*/font-size:26px !important;
-            /*@editable*/line-height:125% !important;
+            font-size:26px !important;
+            line-height:125% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Heading 3
+            Mobile Styles
+            Heading 3
             @tip Make the third-level headings larger in size for better readability on small screens.
             */
             h3{
-            /*@editable*/font-size:20px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:20px !important;
+            line-height:150% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Heading 4
+            Mobile Styles
+            Heading 4
             @tip Make the fourth-level headings larger in size for better readability on small screens.
             */
             h4{
-            /*@editable*/font-size:18px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:18px !important;
+            line-height:150% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Boxed Text
+            Mobile Styles
+            Boxed Text
             @tip Make the boxed text larger in size for better readability on small screens. We recommend a font size of at least 16px.
             */
             .mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-            /*@editable*/font-size:14px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:14px !important;
+            line-height:150% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Header Text
+            Mobile Styles
+            Header Text
             @tip Make the header text larger in size for better readability on small screens.
             */
             .headerContainer .mcnTextContent,.headerContainer .mcnTextContent p{
-            /*@editable*/font-size:16px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:16px !important;
+            line-height:150% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Body Text
+            Mobile Styles
+            Body Text
             @tip Make the body text larger in size for better readability on small screens. We recommend a font size of at least 16px.
             */
             .bodyContainer .mcnTextContent,.bodyContainer .mcnTextContent p{
-            /*@editable*/font-size:16px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:16px !important;
+            line-height:150% !important;
             }
             }	@media only screen and (max-width: 480px){
             /*
-            @tab Mobile Styles
-            @section Footer Text
+            Mobile Styles
+            Footer Text
             @tip Make the footer content text larger in size for better readability on small screens.
             */
             .footerContainer .mcnTextContent,.footerContainer .mcnTextContent p{
-            /*@editable*/font-size:14px !important;
-            /*@editable*/line-height:150% !important;
+            font-size:14px !important;
+            line-height:150% !important;
             }
             }
         </style>

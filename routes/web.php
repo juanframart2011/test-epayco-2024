@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post( 'conformation-pay/{url}', [ PaymentController::class, 'confirmation' ] )->name('confirmation');
+Route::get( 'conformation-pay/{url}', [ PaymentController::class, 'confirmation' ] )->name('confirmation');

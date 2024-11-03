@@ -13,41 +13,28 @@ class PaymentMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    protected $userCurrent;
+
     /**
      * Create a new message instance.
-     */
-    public function __construct()
-    {
-        //
-    }
-
-    /**
-     * Get the message envelope.
-     */
-    public function envelope(): Envelope
-    {
-        return new Envelope(
-            subject: 'Payment Mail',
-        );
-    }
-
-    /**
-     * Get the message content definition.
-     */
-    public function content(): Content
-    {
-        return new Content(
-            view: 'view.name',
-        );
-    }
-
-    /**
-     * Get the attachments for the message.
      *
-     * @return array<int, \Illuminate\Mail\Mailables\Attachment>
+     * @return void
      */
-    public function attachments(): array
+    public function __construct( $data )
     {
-        return [];
+        $this->userCurrent = $data;
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->subject( 'Confirmación de compra Epayco' )
+            ->view( 'mail.confirmation-payment' )->with([
+            'data'  =>  $this->userCurrent
+        ]);
     }
 }
