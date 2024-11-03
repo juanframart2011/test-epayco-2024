@@ -25,3 +25,15 @@ Route::prefix('client')->name('client.')->group(function(){
 
     Route::post('register', [UserController::class, 'register'])->name('register');
 });
+
+#Wallet
+Route::prefix('client')->name('client.')->group(function(){
+
+    Route::post('register', [UserController::class, 'register'])->name('register');
+});
+
+#Client
+Route::prefix('client')->name('client.')->group(function(){
+
+    Route::post('register', [UserController::class, 'register'])->name('register');
+});
