@@ -6,14 +6,13 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Wallet extends Model
+class WalletStatu extends Model
 {
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'id',
-        'user_id',
-        'wallet_statu_id',
+        'name',
         'created_at',
         'updated_at',
         'deleted_at'
