@@ -6,14 +6,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Wallet extends Model
+class Token extends Model
 {
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'id',
-        'user_id',
-        'wallet_statu_id',
+        'token_statu_id',
+        'name',
         'created_at',
         'updated_at',
         'deleted_at'
@@ -22,4 +22,9 @@ class Wallet extends Model
     protected $hidden = [
         'id'
     ];
+
+    public function payment()
+    {
+        return $this->belongsTo( 'App\Models\Payment', 'id', 'token_id' );
+    }
 }
